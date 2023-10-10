@@ -1,0 +1,49 @@
+.sidebarmenu {
+    margin: 1.4rem 0;
+}
+
+.sidebar-options {
+    list-style: none;
+}
+
+.menu-item {
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.6rem 3.8rem;
+}
+
+.menu-item-link {
+    display: flex;
+    align-items: center;
+    color: #8D8D8C;
+}
+
+.menu-item:hover {
+    background-color: #ffffff;
+}
+
+.menu-item a:hover {
+    color: #6C6C6D;
+}
+
+.sidebarmenu ul li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.menu-option-title {
+    font-size: 1.4rem !important;
+    font-weight: 500;
+    margin: 0 1.8rem;
+}
+
+.pending-circle {
+    border-radius: 50%;
+    background-color: #FE4F4E;
+}
+
+.pending-number {
+    font-size: 1rem;
+    color: #f3f3f3;
+    line-height: 1;
+    padding: 0.4rem 0.6rem;
+}

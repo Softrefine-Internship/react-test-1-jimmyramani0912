@@ -1,0 +1,13 @@
+.main {
+    background-color: #fbfafb;
+    grid-column: 2/-1;
+    grid-row: 2/3;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main {
+        grid-column: 1/-1;
+        grid-row: 2/3;
+    }
+}
